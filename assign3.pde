@@ -267,7 +267,7 @@ int team2(){
   if(enemyPosition_x == 640){
       team = 3;
       enemySpeed_x = 0;
-      enemySpeed_y= floor(random(128,350));
+      enemySpeed_y= floor(random(128,320));
   }  
   return team;
 }
