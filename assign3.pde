@@ -251,7 +251,7 @@ int team1(){
   if(enemySpeed_x == 900){
       team = 2;
       enemySpeed_x = 0;
-      enemySpeed_y= floor(random(0,320));
+      enemySpeed_y= floor(random(0,250));
    }  
   return team;
 }
